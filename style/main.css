@@ -65,4 +65,153 @@ nav ul li a:hover {
           box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3), 0 1px 3px 1px rgba(66, 133, 244, 0.15);
   text-decoration: none;
 }
+
+.button-submit {
+  background-color: #f8f9fa;
+  border: 1px solid white;
+  color: #3c4043;
+  padding: 10px 30px 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.button-submit:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first .text-box {
+  height: 45px;
+  width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 20px;
+}
+
+.first .text-box:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.first .text-box .search {
+  height: 100%;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first .text-box .search svg {
+  height: 60%;
+  width: 60%;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.first .text-box .input {
+  width: 80%;
+}
+
+.first .text-box .input input[type="text"] {
+  outline: none;
+  border: none;
+  width: 95%;
+}
+
+.first .text-box .voice {
+  height: 100%;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first .text-box .voice svg {
+  height: 60%;
+  width: 60%;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.first .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.google-offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.google-offer ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.google-offer ul li {
+  margin-left: 10px;
+}
+
+.google-offer ul li a {
+  text-decoration: none;
+}
+
+.google-offer ul li a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */
